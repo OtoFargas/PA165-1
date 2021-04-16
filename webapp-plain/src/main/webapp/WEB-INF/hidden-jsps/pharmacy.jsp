@@ -36,7 +36,7 @@
         <th><fmt:message key="drug.amount"/></th>
         <th><fmt:message key="drug.vendor"/></th>
     </tr>
-  <c:forEach items="${drugs}" var="d">
+  <c:forEach items="${drugs}" var="d"> 
     <tr>
       <td>${d.name}</td>
       <td><c:out value="${d.amount}"/></td>
